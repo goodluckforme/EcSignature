@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadFActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/black"
+        android:onClick="getWord"
+        android:text="获取word文档"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/R_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

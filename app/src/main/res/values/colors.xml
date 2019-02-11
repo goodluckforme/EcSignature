@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏的颜色-->
+    <color name="colorPrimary">#3B99DF</color>
+    <!--状态栏的颜色-->
+    <color name="colorPrimaryDark">#3B90DF</color>
+    <!--控件的选中颜色，即checked或selected状态的颜色。-->
+    <color name="colorAccent">#3B99DF</color>
+
+    <color name="tip">#88303F9F</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#DE6014</color>
+    <color name="gray">#b8b8b8</color>
+    <color name="green">#5FB236</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="light_white">#EEEEEE</color>
+    <color name="light_black">#515151</color>
+    <color name="light_pink">#fb9090</color>
+    <color name="light_coffee">#A58D5E</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="light_red">#EC4A48</color>
+    <color name="light_blue">#039BE5</color>
+    <color name="dark_red">#B93221</color>
+
+    <!--通用背景色-->
+    <color name="common_bg">@color/white</color>
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg">#E3E3E3</color>
+    <!--通用背景色-->
+    <color name="common_gray_bg">#EEEEEE</color>
+    <!--通用一级标题的颜色-->
+    <color name="common_h1">#212121</color>
+    <!--通用二级标题的颜色-->
+    <color name="common_h2">#727272</color>
+    <!--通用三级标题的颜色-->
+    <color name="common_h3">#B2B2B2</color>
+    <!--通用分割线细-->
+    <color name="common_divider_narrow">#E3E3E3</color>
+    <!--通用分割线粗-->
+    <color name="common_divider_wide">@color/light_white</color>
+</resources>

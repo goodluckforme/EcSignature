@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取DOC"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_load_ppt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_load"
+        android:text="读取PPT"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_load_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_load_ppt"
+        android:background="@color/black"
+        android:text="获取文件列表"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_load_list"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/btn_load_ppt"
+        android:background="@color/black"
+        android:text="WIFI传书"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_wifi"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/btn_load_ppt"
+        android:background="@color/black"
+        android:text="清空本地文件"
+        android:textColor="@color/white" />
+</RelativeLayout>
